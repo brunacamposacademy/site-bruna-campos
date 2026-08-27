@@ -1,0 +1,29 @@
+SITE MEDICO V16 - CHECKLIST DE PUBLICACAO
+
+ESTADO ATUAL
+- Pacote preparado para dominio temporario da Hostinger.
+- Todas as paginas continuam com meta robots noindex,nofollow.
+- robots.txt atual bloqueia todos os crawlers.
+- Canonicals e sitemap ja apontam para https://www.brunacampospsiq.com.
+
+ANTES DE PUBLICAR NO DOMINIO PRINCIPAL
+1. Substituir as fotos provisórias pelos arquivos finais otimizados.
+2. Confirmar o telefone final do WhatsApp antes da publicacao.
+3. Inventariar URLs do site antigo e aprovar mapa de redirects 301.
+4. Trocar robots.txt pelo conteudo de robots.production.txt.
+5. Remover noindex,nofollow das paginas que devem ser indexadas.
+6. Testar HTTP -> HTTPS e uma unica versao canonica do host (www).
+7. Validar sitemap.xml, canonicals, links internos, 404 e redirects.
+8. Rodar Lighthouse/PageSpeed no dominio publicado.
+9. Conectar Google Search Console.
+10. Enviar sitemap.xml ao Search Console.
+11. Confirmar que OAI-SearchBot nao esta bloqueado.
+12. Definir conscientemente se GPTBot sera permitido ou bloqueado.
+
+ESCOPO
+- Todos os CTAs de agendamento direcionam diretamente ao WhatsApp.
+- Formulario de agendamento e CRM nao fazem parte desta versao do Assistente de Site Medico.
+- Esse fluxo podera ser criado futuramente como um assistente separado.
+
+OBSERVACAO
+TDAH em adultos permanece como secao da Home neste pacote. Ele nao entra no sitemap enquanto nao houver pagina propria.

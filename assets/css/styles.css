@@ -628,6 +628,7 @@ button, input, textarea, select { font: inherit; }
 .site-footer { padding: 42px 0; background: #00142d; color: #fff; }
 .footer-grid { display: grid; grid-template-columns: 1.2fr .8fr auto; gap: 44px; align-items: start; }
 .footer-brand { display: flex; gap: 14px; }
+.footer-brand-symbol { width: 42px; height: 42px; flex: 0 0 auto; display: block; }
 .monogram-dark { background: transparent; border-color: rgba(255,255,255,.24); }
 .footer-brand > div { display: grid; gap: 4px; }
 .footer-brand strong { font-size: 14px; }

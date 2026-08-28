@@ -1,5 +1,13 @@
 # Changelog
 
+## v19-refinamento-home
+
+- Refinada a composição editorial da Home, com ajustes em áreas de atendimento, avaliações, formação, mídia, presença digital, modalidades e FAQ.
+- Adicionadas imagens WebP locais para atendimento presencial, teleconsulta e conteúdos de mídia.
+- Substituído o monograma do cabeçalho por símbolo vetorial em SVG.
+- Uniformizado o formato arredondado e preenchido dos CTAs da Home.
+- Recomposta a seção de modalidades com dois cards fotográficos lado a lado e legendas sobrepostas.
+
 ## v18-autodeploy-test: alteração mínima para validar publicação automática GitHub → Hostinger.
 
 ## v17-troca-fotos

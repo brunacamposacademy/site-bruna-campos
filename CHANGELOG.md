@@ -1,5 +1,10 @@
 # Changelog
 
+## v20-cache-assets
+
+- Adicionado `?v=20` às referências de CSS e da logo SVG para invalidar versões antigas em navegador e CDN.
+- Incluída proteção Apache contra acesso HTTP a `.git` e outros arquivos ocultos, preservando `/.well-known/`.
+
 ## v20-logo-verde
 
 - Símbolo da marca redesenhado a partir da referência aprovada, com fundo transparente e traço verde da identidade.

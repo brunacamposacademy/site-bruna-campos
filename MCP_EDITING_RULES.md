@@ -17,6 +17,7 @@ Cada solicitação de alteração deve modificar apenas o necessário para cumpr
 4. Verificar desktop e mobile quando houver mudança visual.
 5. Registrar a alteração no CHANGELOG.md.
 6. Criar commit descritivo e reversível.
+7. Sempre que CSS, JavaScript, SVG ou outro asset estático já publicado for modificado, atualizar também seu parâmetro de versão de cache nas páginas que o utilizam.
 
 ## Publicação
 Não conectar o domínio principal, remover `noindex` ou substituir `robots.txt` pela versão de produção sem aprovação explícita.

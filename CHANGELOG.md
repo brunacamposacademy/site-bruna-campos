@@ -1,5 +1,7 @@
 # Changelog
 
+## v18-autodeploy-test: alteração mínima para validar publicação automática GitHub → Hostinger.
+
 ## v17-troca-fotos
 
 - Fotografias da Home e da página Sobre substituídas por novos retratos em WebP otimizado.

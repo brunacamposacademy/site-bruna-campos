@@ -1,5 +1,10 @@
 # Changelog
 
+## v20-logo-verde
+
+- Símbolo da marca redesenhado a partir da referência aprovada, com fundo transparente e traço verde da identidade.
+- Nova marca aplicada nos cabeçalhos e rodapés de todas as páginas do site.
+
 ## v19-refinamento-home
 
 - Refinada a composição editorial da Home, com ajustes em áreas de atendimento, avaliações, formação, mídia, presença digital, modalidades e FAQ.

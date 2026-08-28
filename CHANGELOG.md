@@ -1,5 +1,11 @@
 # Changelog
 
+## v17-troca-fotos
+
+- Fotografias da Home e da página Sobre substituídas por novos retratos em WebP otimizado.
+- Imagem social e preloads atualizados para os novos arquivos.
+- Referências às fotografias antigas removidas das páginas internas.
+
 ## v16-baseline
 
 Baseline congelada para o Gate de manutenção via MCP/versionamento.

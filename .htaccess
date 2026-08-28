@@ -1,0 +1,6 @@
+# Bloqueia metadados do deploy Git e outros arquivos ocultos.
+# A exceção /.well-known/ preserva validações de certificado da Hostinger.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule "(^|/)\.(?!well-known(?:/|$))" - [F,L,NC]
+</IfModule>

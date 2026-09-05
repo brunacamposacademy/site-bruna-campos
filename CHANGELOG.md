@@ -1,5 +1,14 @@
 # Changelog
 
+## v22-paginas-tematicas
+
+- Reconstruída integralmente a página de Ansiedade a partir do conteúdo editorial aprovado.
+- Reconstruída integralmente a página de Depressão, incluindo a orientação de crise e o CVV 188.
+- Reconstruída a página de Laudo para concurso com avaliação exclusivamente presencial na Barra da Tijuca.
+- Criada a página de TDAH em adultos e atualizados os links de navegação e da Home para a nova rota.
+- Atualizados metadados, dados estruturados e FAQ schemas para refletir apenas o conteúdo visível dos artigos.
+- Incluída a URL de TDAH no sitemap e atualizado o cache do CSS para `?v=22`.
+
 ## v21-ajustes-finais-home
 
 - Unificadas as notas máximas do Google e do Doctoralia em uma única faixa de reputação.

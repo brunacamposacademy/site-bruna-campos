@@ -1,5 +1,13 @@
 # Changelog
 
+## v21-ajustes-finais-home
+
+- Unificadas as notas máximas do Google e do Doctoralia em uma única faixa de reputação.
+- Reorganizados os depoimentos em uma grade estruturada de cards e removido o texto explicativo da seção.
+- Ampliadas as fontes do cabeçalho e as fotos das seções de formação e “Sobre mim”, sem o círculo decorativo e com centralização no mobile.
+- Refinado o alinhamento vertical dos textos de mídia e igualadas as proporções visuais dos cards de presença digital.
+- Atualizado o cache do CSS para `?v=21` em todas as páginas.
+
 ## v20-cache-assets
 
 - Adicionado `?v=20` às referências de CSS e da logo SVG para invalidar versões antigas em navegador e CDN.

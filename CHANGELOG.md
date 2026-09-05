@@ -1,5 +1,13 @@
 # Changelog
 
+## v23-gate-final-producao
+
+- Revisados e encurtados os metadados das páginas temáticas, preservando integralmente o conteúdo editorial aprovado.
+- Ajustados contraste de textos, botões, foco e estrelas, com cache CSS atualizado para `v23` e rótulos acessíveis nas avaliações.
+- Reforçada a configuração Apache segura com 404 explícito, bloqueio de listagem de diretórios e cabeçalhos defensivos.
+- Atualizado o checklist de publicação para refletir a página própria de TDAH e o hard stop anterior ao go-live.
+- Mantidos `noindex,nofollow`, `robots.txt` de staging e todas as configurações de produção sem ativação.
+
 ## v22-paginas-tematicas
 
 - Reconstruída integralmente a página de Ansiedade a partir do conteúdo editorial aprovado.

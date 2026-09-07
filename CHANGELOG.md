@@ -1,5 +1,29 @@
 # Changelog
 
+## release-final-producao
+
+- Criada a página de Política de Privacidade com o conteúdo aprovado e o design system V24.
+- Atualizados os rodapés para a nova rota e incluída a página no sitemap.
+- Preparados redirects permanentes do site antigo, resposta `410 Gone` para o ebook removido e consolidação segura em HTTPS/www.
+- Atualizado o arquivo de robots de produção para permitir busca e bloquear o crawler de treinamento GPTBot.
+- Mantidos `noindex,nofollow` e o `robots.txt` de staging até a autorização explícita de go-live.
+
+## v24b-redesign-horizons-paginas-internas
+
+- Aplicada a identidade visual Horizons da Home à página Sobre e aos artigos de Ansiedade, Depressão, TDAH e Laudo para concurso.
+- Adicionados faixas profissionais e índices HTML navegáveis aos artigos, preservando integralmente o conteúdo editorial V23.1.
+- Refinados heroes, listas, CTAs, destaques clínicos, formação e blocos institucionais com componentes CSS reutilizáveis.
+- Reforçados os destaques de urgência da Depressão e de atendimento exclusivamente presencial e ética do Laudo.
+- Atualizado o cache do CSS para `?v=25` em todos os HTMLs consumidores, mantendo o JavaScript em `?v=24`.
+
+## v23-gate-final-producao
+
+- Revisados e encurtados os metadados das páginas temáticas, preservando integralmente o conteúdo editorial aprovado.
+- Ajustados contraste de textos, botões, foco e estrelas, com cache CSS atualizado para `v23` e rótulos acessíveis nas avaliações.
+- Reforçada a configuração Apache segura com 404 explícito, bloqueio de listagem de diretórios e cabeçalhos defensivos.
+- Atualizado o checklist de publicação para refletir a página própria de TDAH e o hard stop anterior ao go-live.
+- Mantidos `noindex,nofollow`, `robots.txt` de staging e todas as configurações de produção sem ativação.
+
 ## v22-paginas-tematicas
 
 - Reconstruída integralmente a página de Ansiedade a partir do conteúdo editorial aprovado.

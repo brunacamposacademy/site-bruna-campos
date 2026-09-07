@@ -1,4 +1,4 @@
-SITE MEDICO V16 - CHECKLIST DE PUBLICACAO
+SITE MEDICO V23 - CHECKLIST DE PUBLICACAO
 
 ESTADO ATUAL
 - Pacote preparado para dominio temporario da Hostinger.
@@ -7,18 +7,19 @@ ESTADO ATUAL
 - Canonicals e sitemap ja apontam para https://www.brunacampospsiq.com.
 
 ANTES DE PUBLICAR NO DOMINIO PRINCIPAL
-1. Substituir as fotos provisórias pelos arquivos finais otimizados.
-2. Confirmar o telefone final do WhatsApp antes da publicacao.
-3. Inventariar URLs do site antigo e aprovar mapa de redirects 301.
-4. Trocar robots.txt pelo conteudo de robots.production.txt.
-5. Remover noindex,nofollow das paginas que devem ser indexadas.
-6. Testar HTTP -> HTTPS e uma unica versao canonica do host (www).
-7. Validar sitemap.xml, canonicals, links internos, 404 e redirects.
-8. Rodar Lighthouse/PageSpeed no dominio publicado.
-9. Conectar Google Search Console.
-10. Enviar sitemap.xml ao Search Console.
-11. Confirmar que OAI-SearchBot nao esta bloqueado.
-12. Definir conscientemente se GPTBot sera permitido ou bloqueado.
+1. Aprovar e publicar uma Politica de Privacidade adequada ao novo site; substituir os links provisórios e definir o redirect da URL antiga.
+2. Confirmar a aprovacao final das fotografias e do telefone do WhatsApp.
+3. Aprovar o mapa de redirects 301, incluindo destinos humanos pendentes das paginas antigas do Wix.
+4. Resolver e validar a entrega de robots.txt pela Hostinger sem override inesperado.
+5. Trocar robots.txt pelo conteudo de robots.production.txt somente no go-live aprovado.
+6. Remover noindex,nofollow somente das paginas que devem ser indexadas e apenas no go-live aprovado.
+7. Ativar e testar HTTP -> HTTPS e uma unica versao canonica do host (www), sem loop e preservando /.well-known/.
+8. Validar sitemap.xml, canonicals, links internos, 404, headers e redirects no servidor final.
+9. Rodar Lighthouse/PageSpeed no dominio publicado.
+10. Conectar Google Search Console.
+11. Enviar sitemap.xml ao Search Console.
+12. Confirmar que OAI-SearchBot nao esta bloqueado.
+13. Definir conscientemente se GPTBot sera permitido ou bloqueado.
 
 ESCOPO
 - Todos os CTAs de agendamento direcionam diretamente ao WhatsApp.
@@ -26,4 +27,5 @@ ESCOPO
 - Esse fluxo podera ser criado futuramente como um assistente separado.
 
 OBSERVACAO
-TDAH em adultos permanece como secao da Home neste pacote. Ele nao entra no sitemap enquanto nao houver pagina propria.
+- TDAH em adultos possui pagina propria em /tdah/ e integra o sitemap.
+- O Gate V23 deve parar antes de qualquer go-live e aguardar aprovacao explicita.

@@ -1,6 +1,40 @@
 # Bloqueia metadados do deploy Git e outros arquivos ocultos.
 # A exceção /.well-known/ preserva validações de certificado da Hostinger.
+Options -Indexes
+ErrorDocument 404 /404.html
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # Preserva validacoes de certificado e outros recursos padronizados.
+  RewriteRule ^\.well-known(?:/|$) - [L,NC]
+
+  # Consolida o dominio final em HTTPS e www, inclusive atras de proxy.
+  # A condicao de host impede que o staging da Hostinger seja redirecionado.
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?brunacampospsiq\.com$ [NC]
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+  RewriteRule ^ https://www.brunacampospsiq.com%{REQUEST_URI} [R=301,L,NE]
+
+  RewriteCond %{HTTP_HOST} ^brunacampospsiq\.com$ [NC]
+  RewriteRule ^ https://www.brunacampospsiq.com%{REQUEST_URI} [R=301,L,NE]
+
+  # URLs legadas do Wix com equivalentes no novo site.
+  RewriteRule ^curr(?:%C3%AD|í)culo/?$ /sobre/ [R=301,L,NE,NC]
+  RewriteRule ^pacientes/?$ / [R=301,L,NE,NC]
+  RewriteRule ^(?:atendimento|atendimento-individual)/?$ /#atendimento [R=301,L,NE,NC]
+  RewriteRule ^(?:formacao|brunacampos)/?$ /sobre/ [R=301,L,NE,NC]
+  RewriteRule ^politica-de-privacidade-bruna-campos/?$ /politica-de-privacidade/ [R=301,L,NE,NC]
+
+  # Conteudo removido sem substituto.
+  RewriteRule ^ebook-em-tempos-de-pandemia/?$ - [G,L,NC]
+
   RewriteRule "(^|/)\.(?!well-known(?:/|$))" - [F,L,NC]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 </IfModule>

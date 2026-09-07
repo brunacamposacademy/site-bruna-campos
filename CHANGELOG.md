@@ -1,5 +1,13 @@
 # Changelog
 
+## v24b-redesign-horizons-paginas-internas
+
+- Aplicada a identidade visual Horizons da Home à página Sobre e aos artigos de Ansiedade, Depressão, TDAH e Laudo para concurso.
+- Adicionados faixas profissionais e índices HTML navegáveis aos artigos, preservando integralmente o conteúdo editorial V23.1.
+- Refinados heroes, listas, CTAs, destaques clínicos, formação e blocos institucionais com componentes CSS reutilizáveis.
+- Reforçados os destaques de urgência da Depressão e de atendimento exclusivamente presencial e ética do Laudo.
+- Atualizado o cache do CSS para `?v=25` em todos os HTMLs consumidores, mantendo o JavaScript em `?v=24`.
+
 ## v23-gate-final-producao
 
 - Revisados e encurtados os metadados das páginas temáticas, preservando integralmente o conteúdo editorial aprovado.

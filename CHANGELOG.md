@@ -1,5 +1,11 @@
 # Changelog
 
+## go-live-v23
+
+- Removido `noindex,nofollow` das sete páginas públicas após autorização explícita de go-live.
+- Ativada a política de produção do `robots.txt`, com OAI-SearchBot permitido e GPTBot bloqueado.
+- Removidos os avisos visíveis de staging dos rodapés, mantendo a página 404 fora de indexação.
+
 ## release-final-producao
 
 - Criada a página de Política de Privacidade com o conteúdo aprovado e o design system V24.

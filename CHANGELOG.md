@@ -1,5 +1,13 @@
 # Changelog
 
+## release-final-producao
+
+- Criada a página de Política de Privacidade com o conteúdo aprovado e o design system V24.
+- Atualizados os rodapés para a nova rota e incluída a página no sitemap.
+- Preparados redirects permanentes do site antigo, resposta `410 Gone` para o ebook removido e consolidação segura em HTTPS/www.
+- Atualizado o arquivo de robots de produção para permitir busca e bloquear o crawler de treinamento GPTBot.
+- Mantidos `noindex,nofollow` e o `robots.txt` de staging até a autorização explícita de go-live.
+
 ## v24b-redesign-horizons-paginas-internas
 
 - Aplicada a identidade visual Horizons da Home à página Sobre e aos artigos de Ansiedade, Depressão, TDAH e Laudo para concurso.

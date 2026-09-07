@@ -17,6 +17,12 @@
     });
 
     menu.querySelectorAll('a').forEach(link => link.addEventListener('click', close));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        close();
+        toggle.focus();
+      }
+    });
     window.addEventListener('resize', () => {
       if (window.innerWidth > 980) close();
     });
